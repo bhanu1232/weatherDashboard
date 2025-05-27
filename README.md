@@ -123,5 +123,3 @@ If you have any questions or issues:
 - Check the documentation
 
 ---
-
-Made with ❤️ by [Your Name]
