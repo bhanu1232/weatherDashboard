@@ -2,8 +2,6 @@
 
 A modern weather dashboard that provides real-time weather information and forecasts. Built with React, TypeScript, and OpenWeather API.
 
-![Weather Dashboard Preview](https://weather-dashboard-black-ten.vercel.app/)
-
 ## ✨ Features
 
 - 🌡️ **Current Weather**: Real-time temperature, humidity, and conditions
