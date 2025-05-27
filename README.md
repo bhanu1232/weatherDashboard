@@ -12,6 +12,7 @@ A modern weather dashboard that provides real-time weather information and forec
 - 🔍 **City Search**: Find weather for any city worldwide
 - 📱 **Responsive Design**: Works on all devices
 - 🌙 **Dark Theme**: Easy on the eyes
+- 🔐 **User Authentication**: Secure login with Supabase
 
 ## 🚀 Quick Start
 
@@ -20,6 +21,7 @@ A modern weather dashboard that provides real-time weather information and forec
 - Node.js (v14 or higher)
 - npm (comes with Node.js)
 - OpenWeather API key ([Get it here](https://openweathermap.org/api))
+- Supabase account ([Sign up here](https://supabase.com))
 
 ### Installation
 
@@ -40,8 +42,21 @@ A modern weather dashboard that provides real-time weather information and forec
    Create a `.env` file in the root directory:
 
    ```env
-   VITE_OPENWEATHER_API_KEY=your_api_key_here
+   # OpenWeather API Key
+   VITE_OPENWEATHER_API_KEY=your_openweather_api_key_here
+
+   # Supabase Configuration
+   VITE_SUPABASE_URL=your_supabase_project_url_here
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
    ```
+
+   To get your Supabase credentials:
+
+   1. Go to your Supabase project dashboard
+   2. Click on the "Settings" icon in the sidebar
+   3. Click on "API" in the settings menu
+   4. Copy the "Project URL" and "anon public" key
+   5. Paste them in your `.env` file
 
 4. **Start the development server**
 
@@ -85,6 +100,7 @@ weather-dashboard/
 - [OpenWeather API](https://openweathermap.org/api) - Weather data
 - [React Query](https://tanstack.com/query/latest) - Data fetching
 - [Lucide Icons](https://lucide.dev/) - Icons
+- [Supabase](https://supabase.com) - Authentication & Database
 
 ## 🤝 Contributing
 
